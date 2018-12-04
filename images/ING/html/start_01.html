@@ -1,0 +1,95 @@
+<img src="images/start/head.png" width="100%" />
+<img src="images/start/content_01.png" width="100%" id="start_A"/>
+<img src="images/start/content_02.png" width="100%" id="start_B"/>
+<img src="images/start/content_03.png" width="100%" id="start_C"/>
+<img src="images/start/content_04.png" width="100%" id="start_D"/>
+<img src="images/start/content_05.png" width="100%" id="start_E"/>
+<img src="images/start/content_06.png" width="100%" id="start_F"/>
+<img src="images/start/foot.png" width="100%" />
+
+<script type="text/javascript">
+$( start_A).on( "mouseover touchstart", function() {
+    this.src= "images/start/content_01a.png"
+}).on( "mouseout touchend", function() {
+    this.src= "images/start/content_01.png"
+});
+
+$( start_B).on( "mouseover touchstart", function() {
+    this.src= "images/start/content_02a.png"
+}).on( "mouseout touchend", function() {
+    this.src= "images/start/content_02.png"
+});
+
+$( start_C).on( "mouseover touchstart", function() {
+    this.src= "images/start/content_03a.png"
+}).on( "mouseout touchend", function() {
+    this.src= "images/start/content_03.png"
+});
+
+$( start_D).on( "mouseover touchstart", function() {
+    this.src= "images/start/content_04a.png"
+}).on( "mouseout touchend", function() {
+    this.src= "images/start/content_04.png"
+});
+
+$( start_E).on( "mouseover touchstart", function() {
+    this.src= "images/start/content_05a.png"
+}).on( "mouseout touchend", function() {
+    this.src= "images/start/content_05.png"
+});
+
+$( start_F).on( "mouseover touchstart", function() {
+    this.src= "images/start/content_06a.png"
+}).on( "mouseout touchend", function() {
+    this.src= "images/start/content_06.png"
+});
+
+$(function() {
+    $( start_A).click(function(){
+	$( A_all).css("display", "block");
+	setTimeout(function(){	
+	$( A_all).css("opacity", "1");
+	},50);			
+ });
+});
+$(function() {
+    $( start_B).click(function(){
+	$( B_all).css("display", "block");
+	setTimeout(function(){	
+	$( B_all).css("opacity", "1");
+	},50);			
+ });
+});
+$(function() {
+    $( start_C).click(function(){
+	$( C_all).css("display", "block");
+	setTimeout(function(){	
+	$( C_all).css("opacity", "1");
+	},50);			
+ });
+});
+$(function() {
+    $( start_D).click(function(){
+	$( D_all).css("display", "block");
+	setTimeout(function(){	
+	$( D_all).css("opacity", "1");
+	},50);			
+ });
+});
+$(function() {
+    $( start_E).click(function(){
+	$( E_all).css("display", "block");
+	setTimeout(function(){	
+	$( E_all).css("opacity", "1");
+	},50);			
+ });
+});
+$(function() {
+    $( start_F).click(function(){
+	$( F_all).css("display", "block");
+	setTimeout(function(){	
+	$( F_all).css("opacity", "1");
+	},50);			
+ });
+});
+</script>

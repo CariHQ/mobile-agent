@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ID CHAIN APP USER GUIDE</title>
+
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<script src="script/jquery.1.12.4.min.js" type="text/javascript"></script>
+<script src="script/fastclick.min.js" type="text/javascript"></script>
+
+<!--/////////////////////////////  FASTCLICK & START   /////////////////////////////-->
+<script type="text/javascript">
+$(function() {
+    FastClick.attach(document.body);
+});
+$(document).ready(function(){
+	$( scr_start).load("html/start_01.html");
+});
+</script>
+</head>
+
+<body>
+<div id="mainframe">
+
+<!--/////////////////////////////  INTRO  /////////////////////////////-->
+<div id="scr_splash" class="anim"><img src="images/splash.png" width="100%" /></div>
+<script type="text/javascript">
+$(document).ready(function () {
+setTimeout(function(){
+	$( scr_splash).css("opacity", "0");
+},2000);
+setTimeout(function(){
+	$( scr_splash).css("display", "none");
+},2500);
+});
+</script>
+
+<!--/////////////////////////////  START  /////////////////////////////-->
+<div id="scr_start" class="anim"></div>
+
+<!--/////////////////////////////  A ALL /////////////////////////////-->
+<div id="A_all" class="all anim">
+<img src="images/A/A_01.png" width="100%" id="A_01" class="pos block t_1 anim"/>
+<img src="images/A/A_02.png" width="100%" id="A_02" class="pos none t_0 anim"/>
+<img src="images/A/A_03.png" width="100%" id="A_03" class="pos none t_0 anim"/>
+<img src="images/A/A_04.png" width="100%" id="A_04" class="pos none t_0 anim"/>
+<img src="images/A/A_05.png" width="100%" id="A_05" class="pos none t_0 anim"/>
+
+<!--/////////////////////////////  A NAVI /////////////////////////////-->
+<div id="A_navi" class="navi">
+<img src="images/pf_lp.png" id="A_pf_l_01" class="pf_l"/>
+<img src="images/pf_la.png" id="A_pf_l_02" class="pf_l none"/>
+<img src="images/pf_la.png" id="A_pf_l_03" class="pf_l none"/>
+<img src="images/pf_la.png" id="A_pf_l_04" class="pf_l none"/>
+<img src="images/pf_la.png" id="A_pf_l_05" class="pf_l none"/>
+
+<img src="images/pf_ra.png" id="A_pf_r_01" class="pf_r" />
+<img src="images/pf_ra.png" id="A_pf_r_02" class="pf_r none" />
+<img src="images/pf_ra.png" id="A_pf_r_03" class="pf_r none" />
+<img src="images/pf_ra.png" id="A_pf_r_04" class="pf_r none" />
+<img src="images/pf_rp.png" id="A_pf_r_05" class="pf_r none" />
+
+<img src="images/close.png" id="close_A" class="close" />
+<script src="script/A_navi.js" type="text/javascript"></script>
+</div>
+</div>
+
+<!--/////////////////////////////  B ALL /////////////////////////////-->
+<div id="B_all" class="all anim">
+<img src="images/B/B_01.png" width="100%" id="B_01" class="pos block t_1 anim"/>
+<img src="images/B/B_02.png" width="100%" id="B_02" class="pos none t_0 anim"/>
+<img src="images/B/B_03.png" width="100%" id="B_03" class="pos none t_0 anim"/>
+
+<!--/////////////////////////////  B NAVI /////////////////////////////-->
+<div id="B_navi" class="navi">
+<img src="images/pf_lp.png" id="B_pf_l_01" class="pf_l"/>
+<img src="images/pf_la.png" id="B_pf_l_02" class="pf_l none"/>
+<img src="images/pf_la.png" id="B_pf_l_03" class="pf_l none"/>
+
+<img src="images/pf_ra.png" id="B_pf_r_01" class="pf_r" />
+<img src="images/pf_ra.png" id="B_pf_r_02" class="pf_r none" />
+<img src="images/pf_rp.png" id="B_pf_r_03" class="pf_r none" />
+
+<img src="images/close.png" id="close_B" class="close" />
+<script src="script/B_navi.js" type="text/javascript"></script>
+</div>
+</div>
+
+<!--/////////////////////////////  C ALL /////////////////////////////-->
+<div id="C_all" class="all anim">
+<img src="images/C/C_01.png" width="100%" id="C_01" class="pos block t_1 anim"/>
+<img src="images/C/C_02.png" width="100%" id="C_02" class="pos none t_0 anim"/>
+<img src="images/C/C_03.png" width="100%" id="C_03" class="pos none t_0 anim"/>
+<img src="images/C/C_04.png" width="100%" id="C_04" class="pos none t_0 anim"/>
+
+<!--/////////////////////////////  C NAVI /////////////////////////////-->
+<div id="C_navi" class="navi">
+<img src="images/pf_lp.png" id="C_pf_l_01" class="pf_l"/>
+<img src="images/pf_la.png" id="C_pf_l_02" class="pf_l none"/>
+<img src="images/pf_la.png" id="C_pf_l_03" class="pf_l none"/>
+<img src="images/pf_la.png" id="C_pf_l_04" class="pf_l none"/>
+
+<img src="images/pf_ra.png" id="C_pf_r_01" class="pf_r" />
+<img src="images/pf_ra.png" id="C_pf_r_02" class="pf_r none" />
+<img src="images/pf_ra.png" id="C_pf_r_03" class="pf_r none" />
+<img src="images/pf_rp.png" id="C_pf_r_04" class="pf_r none" />
+
+<img src="images/close.png" id="close_C" class="close" />
+<script src="script/C_navi.js" type="text/javascript"></script>
+</div>
+</div>
+
+<!--/////////////////////////////  D ALL /////////////////////////////-->
+<div id="D_all" class="all anim">
+<img src="images/D/D_01.png" width="100%" id="D_01" class="pos block t_1 anim"/>
+<img src="images/D/D_02.png" width="100%" id="D_02" class="pos none t_0 anim"/>
+<img src="images/D/D_03.png" width="100%" id="D_03" class="pos none t_0 anim"/>
+<img src="images/D/D_04.png" width="100%" id="D_04" class="pos none t_0 anim"/>
+<img src="images/D/D_05.png" width="100%" id="D_05" class="pos none t_0 anim"/>
+<img src="images/D/D_06.png" width="100%" id="D_06" class="pos none t_0 anim"/>
+
+<!--/////////////////////////////  D NAVI /////////////////////////////-->
+<div id="D_navi" class="navi">
+<img src="images/pf_lp.png" id="D_pf_l_01" class="pf_l"/>
+<img src="images/pf_la.png" id="D_pf_l_02" class="pf_l none"/>
+<img src="images/pf_la.png" id="D_pf_l_03" class="pf_l none"/>
+<img src="images/pf_la.png" id="D_pf_l_04" class="pf_l none"/>
+<img src="images/pf_la.png" id="D_pf_l_05" class="pf_l none"/>
+<img src="images/pf_la.png" id="D_pf_l_06" class="pf_l none"/>
+
+<img src="images/pf_ra.png" id="D_pf_r_01" class="pf_r" />
+<img src="images/pf_ra.png" id="D_pf_r_02" class="pf_r none" />
+<img src="images/pf_ra.png" id="D_pf_r_03" class="pf_r none" />
+<img src="images/pf_ra.png" id="D_pf_r_04" class="pf_r none" />
+<img src="images/pf_ra.png" id="D_pf_r_05" class="pf_r none" />
+<img src="images/pf_rp.png" id="D_pf_r_06" class="pf_r none" />
+
+<img src="images/close.png" id="close_D" class="close" />
+<script src="script/D_navi.js" type="text/javascript"></script>
+</div>
+</div>
+
+<!--/////////////////////////////  E ALL /////////////////////////////-->
+<div id="E_all" class="all anim">
+<img src="images/E/E_01.png" width="100%" id="E_01" class="pos block t_1 anim"/>
+<img src="images/E/E_02.png" width="100%" id="E_02" class="pos none t_0 anim"/>
+<img src="images/E/E_03.png" width="100%" id="E_03" class="pos none t_0 anim"/>
+
+<!--/////////////////////////////  E NAVI /////////////////////////////-->
+<div id="E_navi" class="navi">
+<img src="images/pf_lp.png" id="E_pf_l_01" class="pf_l"/>
+<img src="images/pf_la.png" id="E_pf_l_02" class="pf_l none"/>
+<img src="images/pf_la.png" id="E_pf_l_03" class="pf_l none"/>
+
+<img src="images/pf_ra.png" id="E_pf_r_01" class="pf_r" />
+<img src="images/pf_ra.png" id="E_pf_r_02" class="pf_r none" />
+<img src="images/pf_rp.png" id="E_pf_r_03" class="pf_r none" />
+
+<img src="images/close.png" id="close_E" class="close" />
+<script src="script/E_navi.js" type="text/javascript"></script>
+</div>
+</div>
+
+<!--/////////////////////////////  F ALL /////////////////////////////-->
+<div id="F_all" class="all anim">
+<img src="images/F/F_01.png" width="100%" id="F_01" class="pos block t_1 anim"/>
+<img src="images/F/F_02.png" width="100%" id="F_02" class="pos none t_0 anim"/>
+<img src="images/F/F_03.png" width="100%" id="F_03" class="pos none t_0 anim"/>
+<img src="images/F/F_04.png" width="100%" id="F_04" class="pos none t_0 anim"/>
+<img src="images/F/F_05.png" width="100%" id="F_05" class="pos none t_0 anim"/>
+<img src="images/F/F_06.png" width="100%" id="F_06" class="pos none t_0 anim"/>
+<img src="images/F/F_07.png" width="100%" id="F_07" class="pos none t_0 anim"/>
+
+<!--/////////////////////////////  F NAVI /////////////////////////////-->
+<div id="F_navi" class="navi">
+<img src="images/pf_lp.png" id="F_pf_l_01" class="pf_l"/>
+<img src="images/pf_la.png" id="F_pf_l_02" class="pf_l none"/>
+<img src="images/pf_la.png" id="F_pf_l_03" class="pf_l none"/>
+<img src="images/pf_la.png" id="F_pf_l_04" class="pf_l none"/>
+<img src="images/pf_la.png" id="F_pf_l_05" class="pf_l none"/>
+<img src="images/pf_la.png" id="F_pf_l_06" class="pf_l none"/>
+<img src="images/pf_la.png" id="F_pf_l_07" class="pf_l none"/>
+
+<img src="images/pf_ra.png" id="F_pf_r_01" class="pf_r" />
+<img src="images/pf_ra.png" id="F_pf_r_02" class="pf_r none" />
+<img src="images/pf_ra.png" id="F_pf_r_03" class="pf_r none" />
+<img src="images/pf_ra.png" id="F_pf_r_04" class="pf_r none" />
+<img src="images/pf_ra.png" id="F_pf_r_05" class="pf_r none" />
+<img src="images/pf_ra.png" id="F_pf_r_06" class="pf_r none" />
+<img src="images/pf_rp.png" id="F_pf_r_07" class="pf_r none" />
+
+<img src="images/close.png" id="close_F" class="close" />
+<script src="script/F_navi.js" type="text/javascript"></script>
+</div>
+</div>
+
+</div>
+</body>
+</html>
