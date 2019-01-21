@@ -4,4 +4,4 @@ This repository contains the documentation on how to use the mobile application 
 
 ## Download mobile application APK :vibration_mode:
 
-In the comming days we will include the APK of the mobile application so anyone can test our components.
+Download the Android Mobile Application [:point_right: here](http://bit.ly/idchain)
